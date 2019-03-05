@@ -1,3 +1,4 @@
+
 # SmartCity
 
 
@@ -15,7 +16,6 @@ Clone a copy of the project to your local storage with:
 git clone https://github.com/Rev-Tech/SmartCity.git
 ```
 
-
 ### Install the dependencies
 
 1. Change the current working directory to the project:
@@ -23,24 +23,31 @@ git clone https://github.com/Rev-Tech/SmartCity.git
 cd SmartCity
 ```
 
-
-2. Install [`learna`](https://github.com/lerna/lerna) (if you haven't):
+2. Install [`yarn`](https://github.com/yarnpkg/yarn) (if you haven't):
 ```bash
-sudo npm install -g lerna
+# through npm:
+sudo npm install -g yarn
+
+# or through package manager:
+# for MacOS:
+brew install yarn
+
+# for Debian/Ubuntu:
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
 ```
 
+3. Install [`lerna`](https://github.com/lerna/lerna) (if you haven't):
+```bash
+sudo npm install -g lerna
+# or "sudo yarn global add lerna"
+```
 
-3. Bootstrap the packages in the current Lerna repo: <?>
+4. Bootstrap the packages in the current Lerna repo: <?>
 ```bash
 lerna bootstrap
 ```
-
-
-4. Install [`yarn`](https://github.com/yarnpkg/yarn) (if you haven't):
-```bash
-sudo npm install -g yarn
-```
-
 
 5. Install the package dependencies:
 ```bash
