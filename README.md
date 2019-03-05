@@ -21,7 +21,7 @@ git clone https://github.com/Rev-Tech/SmartCity.git
 ```bash
 cd SmartCity
 ```
-2. Install [`learna`] (https://github.com/lerna/lerna) (if you haven't):
+2. Install [`learna`](https://github.com/lerna/lerna) (if you haven't):
 ```bash
 sudo npm install -g lerna
 ```
@@ -30,7 +30,7 @@ sudo npm install -g lerna
 lerna bootstrap
 ```
 
-4. Install [`yarn`] (https://github.com/yarnpkg/yarn) (if you haven't):
+4. Install [`yarn`](https://github.com/yarnpkg/yarn) (if you haven't):
 ```
 bash
 sudo npm install -g yarn
