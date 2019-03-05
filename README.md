@@ -5,7 +5,12 @@
 > SmartCity is a project for ...
 
 
-# Getting Started
+## Getting Started
 
-### Setup the server
+### Clone the project
 
+Clone a copy of the project to your local storage with:
+
+```bash
+git clone https://github.com/Rev-Tech/SmartCity.git
+```
