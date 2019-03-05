@@ -23,19 +23,24 @@ git clone https://github.com/Rev-Tech/SmartCity.git
 cd SmartCity
 ```
 
+
 2. Install [`learna`](https://github.com/lerna/lerna) (if you haven't):
 ```bash
 sudo npm install -g lerna
 ```
+
+
 3. Bootstrap the packages in the current Lerna repo: <?>
 ```bash
 lerna bootstrap
 ```
 
+
 4. Install [`yarn`](https://github.com/yarnpkg/yarn) (if you haven't):
 ```bash
 sudo npm install -g yarn
 ```
+
 
 5. Install the package dependencies:
 ```bash
@@ -43,7 +48,7 @@ yarn install
 ```
 
 
-### start the servers
+### Start the servers
 
 This system requires [`MongoDB`](https://docs.mongodb.com/manual/installation/) and [`Redis`](https://redis.io/topics/quickstart) in onder to run. Please ensure that your machine already have those installed. If not, consider following the link attached to them for the installation guide. 
 
